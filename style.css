@@ -1,28 +1,135 @@
-body{
-    margin:0;
-    font-family: Audiowide;
+header{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffffde;
+    box-shadow: 2px 2px 2px 2px;
+    position: fixed;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
 }
-header img{
-    height: 300px;
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    margin-top: 10px;
+}
+.Deskripsihome{
+    width: 40%;
+    font-size: 20px;
+    margin-left: 50px;
+    & h1{
+        color: rgb(0, 0, 0);
+    }
+    & h3{
+        color: rgb(95, 0, 0);
+    }
+    & p{
+        color: rgb(0, 0, 0);
+    }
+}
+.home{
+    background-image: url(Gemini_Generated_Image_e54d7re54d7re54d.png);
+    height: 800px;
+    background-size: cover;
+    padding-top: 50px;
+    font-family:"Holiday";
 }
 nav a{
     text-decoration: none;
-    color:rgb(255, 140, 0);
-     padding: 5px 15px;
+    padding: 5px 15px;
     font-size: 16px;
-    }
-header{
-    text-align:center;
-    box-shadow:0px 0px 0px;
-    background-color:rgb(255, 255, 255);
-}
-nav{
-    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 1s;
+    border-radius: 10px 10px 10px 10px;
+    font-family:"Holiday";
 }
 nav a:hover{
-    color:black;
-    background-color:bisque
-    border-radius:10px 10px 10px 10px;
-    box-shadow:5px 5px 0px 0px ;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 5px 5px;
+    margin: 5px;
+    transition: 0.4s;
+    font-family:"Holiday";
+}
+.Deskripsihome a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px;
     transition: 1s;
+    font-family:"Holiday";
+
+}
+.Deskripsihome a:hover{
+    color: rgb(0n h, 0, 0);
+    background-color: bisque;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px 5px;
+}
+
+p{
+    color: rgb(92, 89, 64);
+}
+.about{
+    height: 900px ;
+    background-color: rgb(143, 82, 3);
+}
+.ContainerAbout{
+    background-color: azure;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+}
+.ContainerAbout img{
+    width: 500px;
+    height: auto;
+}
+section.howto{
+    height: 900px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color:burlywood;
+}
+.howto img{
+    height: 500px;
+}
+.deskhowto{
+    display:contents;
+    width: 60%;
+    margin: auto;
+}
+.dokumentasi{
+    margin: 20px;
+}
+.cardProfile{
+    background-color: blanchedalmond;
+    padding: 15px;
+    width: 200px;
+    marginnya: auto;
+    text-align: center;
+}
+.imgProfile img{
+    widht:100%;
+}
+.medsos{
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
 }
