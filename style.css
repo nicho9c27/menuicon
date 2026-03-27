@@ -110,15 +110,28 @@ section.howto{
 .dokumentasi{
     margin: 20px;
 }
+section.profile{
+    padding: 100px 0;
+    background-color:rgb(152, 85, 22);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
 .cardProfile{
     background-color: blanchedalmond;
     padding: 15px;
     width: 200px;
-    marginnya: auto;
+    margin: auto;
     text-align: center;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
 .imgProfile img{
-    widht:100%;
+    width:40%;
+    height: 50px;
+    border-radius: 50%;
+    border: 50px solid white;
+    margin-bottom: 15px;    
 }
 .medsos{
     left: 0px;
